@@ -2,7 +2,7 @@ Summary:	yplayer - simple GUI player for Y Sound Objects using the GTK+ toolkit
 Summary(pl):	yplayer - prosty graficzny odtwarzacz obiektów d¼wiêkowych Y oparty na GTK+
 Name:		yplayer
 Version:	0.1.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://wolfpack.twu.net/users/wolfpack/%{name}-%{version}.tar.bz2
@@ -12,6 +12,7 @@ BuildRequires:	gtk+-devel >= 1.2.10
 BuildRequires:	yiff-devel >= 2.14.1
 Requires:	gtk+ >= 1.2.10
 Requires:	yiff-lib >= 2.14.1
+Conflicts:	yconsole <= 3.0.8-1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		specflags	-fomit-frame-pointer -ffast-math
