@@ -1,5 +1,5 @@
 Summary:	yplayer - simple GUI player for Y Sound Objects using the GTK+ toolkit
-Summary(pl.UTF-8):   yplayer - prosty graficzny odtwarzacz obiektów dźwiękowych Y oparty na GTK+
+Summary(pl.UTF-8):	yplayer - prosty graficzny odtwarzacz obiektów dźwiękowych Y oparty na GTK+
 Name:		yplayer
 Version:	1.1.3
 Release:	1
